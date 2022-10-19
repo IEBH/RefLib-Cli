@@ -7,6 +7,7 @@ import {program} from 'commander';
 import reflib from '@iebh/reflib';
 
 program
+	.name('reflib')
 	.usage('[file...]')
 	.option('-c, --count', 'Dont output refs, just output the count (sets `-o count`)')
 	.option('-j, --json', 'Output valid JSON (sets `-o json`)')
